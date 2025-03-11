@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
-from run_mcmc import *
+from run_mcmc import potential_energy
+import numpy as np
 
 def plot_distribution(samples, xmin=-2.5, xmax=2.5, bins=100, kBT=.5):
     x_values = np.linspace(xmin, xmax, 10000) #10000 points in x for plotting PES

@@ -7,7 +7,7 @@ $P(x) = \frac{e^{- V(x) / k_BT}}{Z}$ <br><br>
 where $T$ is temperature, $k_B$ is Boltzmann's constant, and $Z$ is the partition function:<br>
 
 $Z = \int_{-\infty}^{\infty} e^{- V(x) / k_BT} dx$. <br><br>
-Note that $Z$ is the normalizing constant for the probability density function (PDF). In this application, we carry out a simple numerical integration by approximating the integral as a sum over the area of many thin rectangles of width $dx$ and height $e^{- V(x) / k_BT}$. <br><br>
+Note that $Z$, the partition function, is the normalization constant for the probability density function (PDF). In this application, we carry out a simple numerical integration by approximating the integral as a sum over the area of many thin rectangles of width $dx$ and height $e^{- V(x) / k_BT}$. <br><br>
 
 $Z \approx \sum_{x=x_{min}}^{x_{max}} e^{- V(x) / k_BT} dx$
 

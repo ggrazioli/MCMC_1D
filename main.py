@@ -4,7 +4,8 @@
 # To run in the terminal:
 # python main.py
 
-from plot_distribution import *
+from plot_distribution import plot_distribution
+from run_mcmc import metropolis_hastings
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
